@@ -31,8 +31,8 @@ const Contact = () => {
   const handleSubmit = (e)=>{
     e.preventDefault();
     emailjs.send(
-      'service_u0i5fvi',
-      'template_05lphxe',
+      import.meta.env.VITE_SERVICE,
+      import.meta.env.VITE_TEMPLATE,
       {
       from_name: form.name,
       to_name: 'Chirag',
@@ -40,7 +40,7 @@ const Contact = () => {
       to_email: 'chiragjee40@gmail.com',
       message: form.message 
     },
-    'LuuvpcjEw2SWc7kYI').then(()=>{
+    import.meta.env.VITE_SECRET).then(()=>{
       alert("Thank You! Will get back to you")
       setForm({
         name:"",
