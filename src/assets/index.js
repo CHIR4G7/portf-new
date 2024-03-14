@@ -38,6 +38,7 @@ import ayush from "./ayush.jpeg";
 import travello from "./travello.jpeg";
 import chatapp from './chatapp.jpeg'
 import hauffman from './textcompressor.png'
+import sleepify from './sleepify.png'
 
 import dsa from './dsa.jpeg'
 
@@ -75,5 +76,5 @@ export {
   linkedin,
   chatapp,
   dsa,
-  hauffman
+  hauffman,sleepify
 };

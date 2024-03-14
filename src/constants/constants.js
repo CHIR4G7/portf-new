@@ -29,7 +29,8 @@ import {
   github,
   chatapp,
   dsa,
-  hauffman
+  hauffman,
+  sleepify
   } from "../assets";
   
   export const navLinks = [
@@ -122,14 +123,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -225,7 +218,7 @@ import {
         },
       ],
       image: bhumi,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://youtu.be/AVqVHceHbzM",
     },
     {
       name: "Ayush Portal",
@@ -246,7 +239,7 @@ import {
         },
       ],
       image: ayush,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/CHIR4G7/Ayush-Portal",
     },
     {
       name: "Chat App",
@@ -288,7 +281,28 @@ import {
         },
       ],
       image: hauffman,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/CHIR4G7/HAUFFMAN-ENCODER-DECODER.git",
+    },
+    {
+      name: "Sleepify",
+      description:
+        "A comprehensive tool highlighting the benefits of tracking sleep cycles and helps maintaing sleep data with tables and data charts",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: sleepify,
+      source_code_link: "https://sleepify.vercel.app/",
     }
   ];
   
