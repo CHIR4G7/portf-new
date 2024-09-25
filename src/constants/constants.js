@@ -141,7 +141,7 @@ import {
       company_name: "1 Bridge",
       icon: onebridge,
       iconBg: "#E6DEDD",
-      date: "Jan 2024 - Present",
+      date: "Jan 2024 - April 2024",
       points: [
         
       ],
@@ -151,7 +151,7 @@ import {
       company_name: "Natwest",
       icon: natwest,
       iconBg: "#383E56",
-      date: "Upcoming",
+      date: "May 2024 - July 2024",
       points: [
        
       ],
