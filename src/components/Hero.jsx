@@ -37,7 +37,7 @@ const Hero = () => {
     <span class="font-bold text-5xl">Jr</span>
     <p class="text-xs">MERN Stack Developer</p>
   </div>
-  <a href='https://drive.google.com/file/d/1RP3y1wUMv8sL2wo8F_IKAUGxBm9quzam/view?usp=sharing' target='_blank'>
+  <a href='https://drive.google.com/file/d/1lP9FmwIVX3oPg8hIDJSag3oZxMyaiyiM/view?usp=sharing' target='_blank'>
   <button class="duration-300 hover:bg-sky-900 border hover:text-gray-50 bg-gray-50 font-semibold text-sky-800 px-3 py-2 flex flex-row items-center gap-3" href='https://drive.google.com/file/d/1RP3y1wUMv8sL2wo8F_IKAUGxBm9quzam/view?usp=sharing' target='_blank'>
    Resume
     
