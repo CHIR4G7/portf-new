@@ -26,6 +26,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.svg";
+import nextjs from "./tech/nextjs.svg";
+import fastapi from "./tech/fastapi.svg";
+import aws from "./tech/aws.svg";
+import kafka from "./tech/kafka.svg";
 
 import onebridge from "./company/1bridgelogo.png";
 import codingninjas from "./company/codingninjas.jpeg";
@@ -64,6 +69,11 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  nextjs,
+  fastapi,
+  aws,
+  kafka,
   onebridge,//meta
   codingninjas,//shopify
   natwest,//natwest

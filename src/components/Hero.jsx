@@ -21,7 +21,7 @@ const Hero = () => {
 
             Welcome to My Portfolio Website!
             <br />
-            I am an <span className='text-[#915eff]'>Electronics and Communication UnderGrad</span> with great interests in <span className='text-[#915eff]'>Computer Science and Enginering</span>.
+            I am a <span className='text-[#915eff]'>Software Engineer at Natwest Group</span>, building <span className='text-[#915eff]'>AI/RAG systems and full-stack applications</span>.
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@ const Hero = () => {
         <div class="relative duration-500  hover:-rotate-0   group [transform:rotate3d(1_,-1,_1,_60deg)] border border-sky-900 border-4  overflow-hidden rounded-2xl relative h-96 w-64 bg-sky-800 p-5 flex flex-col items-start gap-4">
   <div class="text-gray-50">
     <span class="font-bold text-5xl">Jr</span>
-    <p class="text-xs">MERN Stack Developer</p>
+    <p class="text-xs">Software Engineer</p>
   </div>
   <a href='https://drive.google.com/file/d/1lP9FmwIVX3oPg8hIDJSag3oZxMyaiyiM/view?usp=sharing' target='_blank'>
   <button class="duration-300 hover:bg-sky-900 border hover:text-gray-50 bg-gray-50 font-semibold text-sky-800 px-3 py-2 flex flex-row items-center gap-3" href='https://drive.google.com/file/d/1RP3y1wUMv8sL2wo8F_IKAUGxBm9quzam/view?usp=sharing' target='_blank'>

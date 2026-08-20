@@ -5,15 +5,10 @@ import {
     web,
     javascript,
     typescript,
-    html,
-    css,
     reactjs,
-    redux,
-    tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
     onebridge,//meta
     codingninjas,//shopify
@@ -30,7 +25,12 @@ import {
   chatapp,
   dsa,
   hauffman,
-  sleepify
+  sleepify,
+  python,
+  nextjs,
+  fastapi,
+  aws,
+  kafka
   } from "../assets";
   
   export const navLinks = [
@@ -50,16 +50,20 @@ import {
   
   const services = [
     {
+      title: "AI / ML Engineer",
+      icon: creator,
+    },
+    {
+      title: "Backend Developer",
+      icon: backend,
+    },
+    {
       title: "Web Developer",
       icon: web,
     },
     {
       title: "React JS Developer",
       icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
     },
     {
       title: "LeetCode",
@@ -78,15 +82,11 @@ import {
       icon: dsa
     }
   ];
-  
+
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
+      name: "Python",
+      icon: python,
     },
     {
       name: "JavaScript",
@@ -97,24 +97,36 @@ import {
       icon: typescript,
     },
     {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
       icon: nodejs,
     },
     {
+      name: "FastAPI",
+      icon: fastapi,
+    },
+    {
       name: "MongoDB",
       icon: mongodb,
+    },
+    {
+      name: "AWS",
+      icon: aws,
+    },
+    {
+      name: "Kafka",
+      icon: kafka,
+    },
+    {
+      name: "Docker",
+      icon: docker,
     },
     {
       name: "Three JS",
@@ -128,6 +140,41 @@ import {
   
   const experiences = [
     {
+      title: "Software Engineer - Full Time",
+      company_name: "Natwest Group",
+      icon: natwest,
+      iconBg: "#383E56",
+      date: "July 2025 - Present",
+      points: [
+        "Built a production RAG engine with hybrid retrieval (vector + lexical + RRF) and multi-LLM routing (GPT-4, Gemini, Claude) over OpenSearch, delivering cited, hallucination-guarded answers from 200+ page financial/legal documents in under 25 seconds.",
+        "Built an async event-driven ingestion pipeline (Python/asyncio + Kafka) with bounded work queues, concurrency semaphores, backpressure control, and crash recovery, processing documents at 1M tokens/min embedding throughput with at-least-once delivery.",
+        "Built a natural-language-to-SQL engine for spreadsheet Q&A and an LLM-judge evaluation framework, iterating through 14 prompt versions to improve answer accuracy against gold-standard legal claim datasets.",
+        "Deployed a 4-service microservice platform on AWS EC2 with S3, OpenSearch, Amazon Bedrock (Claude Opus), and Kafka, automated via GitLab CI/CD pipelines achieving 99% uptime.",
+      ],
+    },
+    {
+      title: "Software Development Intern",
+      company_name: "Natwest Group",
+      icon: natwest,
+      iconBg: "#383E56",
+      date: "May 2024 - July 2024",
+      points: [
+        "Built an Exception Dashboard with REST APIs and Angular UI, enabling real-time tracking of 1 million+ exceptions and reducing manual triage effort for a 10-person support team.",
+        "Wrote 30+ unit and integration test cases, increasing code coverage from 47% to 89% and improving deployment confidence.",
+      ],
+    },
+    {
+      title: "Software Engineer Intern",
+      company_name: "RubanBridge",
+      icon: onebridge,
+      iconBg: "#E6DEDD",
+      date: "January 2024 - April 2024",
+      points: [
+        "Built an interactive geospatial dashboard visualising company logistics presence across 200+ districts and 20+ states, used daily by operations and sales teams.",
+        "Refactored the Logistics Console UI, improving Google Lighthouse Score from 78 to 92 and reducing page load time - directly improving usability for field agents.",
+      ],
+    },
+    {
       title: "Teaching Assistant",
       company_name: "Coding Ninjas",
       icon: codingninjas,
@@ -136,26 +183,6 @@ import {
       points: [
       ],
     },
-    {
-      title: "Full Stack Developer Intern",
-      company_name: "1 Bridge",
-      icon: onebridge,
-      iconBg: "#E6DEDD",
-      date: "Jan 2024 - April 2024",
-      points: [
-        
-      ],
-    },
-    {
-      title: "Software Developement Intern",
-      company_name: "Natwest",
-      icon: natwest,
-      iconBg: "#383E56",
-      date: "May 2024 - July 2024",
-      points: [
-       
-      ],
-    }
   ];
   
  
